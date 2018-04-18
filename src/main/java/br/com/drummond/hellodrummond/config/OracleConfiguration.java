@@ -10,6 +10,10 @@ import javax.sql.DataSource;
 import javax.validation.constraints.NotNull;
 import java.sql.SQLException;
 
+public class OracleConfiguration
+{
+
+/*
 @Configuration
 @ConfigurationProperties("oracle")
 public class OracleConfiguration {
@@ -45,4 +49,6 @@ public class OracleConfiguration {
         dataSource.setFastConnectionFailoverEnabled(true);
         return dataSource;
     }
+    
+    */
 }
